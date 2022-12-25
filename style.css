@@ -1,7 +1,7 @@
 :root {
   --clr-accent-500: hsl(12, 60%, 45%);
   --clr-accent-400: hsl(12, 88%, 59%);
-  --clr-accent-300: hsl(12, 88%, 68%);
+  --clr-accent-300: hsl(12, 88%, 75%);
   --clr-accent-100: hsl(13, 100%, 96%);
 
   --clr-primary-400: hsl(228, 39%, 23%);
@@ -450,7 +450,7 @@ input:where([type="text"], [type="email"],) {
   gap: var(--size-600);
   list-style: none;
 }
-.ally-slider-container {
+.a11y-slider-container {
   margin-block: var(--size-700);
   margin-inline: 0 var(--size-400);
 }
@@ -466,7 +466,7 @@ input:where([type="text"], [type="email"],) {
   .slider > * {
     width: 50%; 
   }
-  .ally-slider-container {
+  .a11y-slider-container {
     margin-inline: 0 ;
   }
 }
@@ -477,7 +477,7 @@ input:where([type="text"], [type="email"],) {
 }
 .slider-content {
   padding: var(--size-900) var(--size-600) var(--size-600);
-  border-radius: var(--size-300);
+  border-radius: var(--size-100);
   background: var(--clr-neutral-200);
 }
 
@@ -487,19 +487,19 @@ input:where([type="text"], [type="email"],) {
   top: calc(var(--size-800) / 2);
   margin-inline: auto;
 }
-.ally-slider-dots {
+.a11y-slider-dots {
   margin-block: var(--size-500);
   display: flex;
   gap:var(--size-300);
   justify-content: center;
 }
-.ally-slider-dots li {
+.a11y-slider-dots li {
   display: block;
   width: 12px;
   height: 12px; 
   padding: 0;
 }
-.ally-slider-dots li button {
+.a11y-slider-dots li button {
   display: block;
   font-size: 0;
   text-indent: -9999px;
@@ -509,7 +509,7 @@ input:where([type="text"], [type="email"],) {
   height: 100%;
   border-radius: 100%;
 }
-.ally-slider-dots li button.active {
+.a11y-slider-dots li button.active {
   background: var(--clr-accent-400);
 }
 
